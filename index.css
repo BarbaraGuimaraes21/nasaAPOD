@@ -1,116 +1,28 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  font-family: 'Anton', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Aldrich', sans-serif;
 }
 
 body {
-  display: block;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/834435-lindo-espaco-fundo-vetor.jpg);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background-image: url(./nasaind.jpg);
+    background-size: cover;
+    width: 75vw;
+    height: 75vh;
 }
 
-header {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-image: url(https://c.tenor.com/zqmFb8jX3uAAAAAC/solar-system-earth.gif);
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-weight: bolder;
-  font-size: 20px;
+h1 {
+    text-align: center;
+    font-size: 75px;
+    padding-top: 250px;
+    padding-left: 320px;
+    color: rgb(191, 178, 202);
 }
 
-.lbl {
-  color: #b6b3b1;
-  text-align: center;
-  padding: 10px;
-}
-
-input {
-  padding: 10px;
-  margin: 5px;
-}
-
-.central {
-  padding: 0px 15px 0px 260px;
-  margin: 150px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #20262bab;
-  padding: 20px 15px 50px 0px;
-  margin: 150px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-}
-
-
-h3 {
-  font-size: 30px;
-  color: white;
-  -webkit-text-stroke: 1px black;
-}
-
-p {
-  color: #b6b3b1;
-  padding: 8px;
-  font-size: 15px;
-}
-
-.conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 150px;
-  background-color: #20262bab;
-  padding: 20px 15px 50px 0px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-}
-
-.textimag{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.footer {
-  background-color: #0F0F0D;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  color: #b6b3b1;
-  font-size: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.icone{
-  max-width: 30px;
-}
-
-h4{
-  padding-bottom: 10px;
+h1:hover {
+    color: white;
 }
