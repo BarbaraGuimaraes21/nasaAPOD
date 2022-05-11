@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url(./imagem/nasaind.jpg);
+    background-image: url(nasaind.jpg);
     background-size: cover;
     width: 75vw;
     height: 75vh;
