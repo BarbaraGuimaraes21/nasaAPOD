@@ -2,24 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
     font-family: 'Aldrich', sans-serif;
 }
 
 body {
-    background-image: url(nasaind.jpg);
+    background-image: url("./nasaind.jpg");
     background-size: cover;
-    width: 75vw;
-    height: 75vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 93%;
 }
 
+.inicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    padding-top: 4%;
+}
 h1 {
     text-align: center;
     font-size: 75px;
     padding-top: 250px;
-    padding-left: 320px;
     color: rgb(191, 178, 202);
 }
 

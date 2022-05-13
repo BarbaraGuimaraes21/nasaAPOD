@@ -9,8 +9,7 @@ $('#submit').click(function(e){
             console.log(date)
         },
         erro: function(erro) {
-            showError(erro)
-            console.log(erro)
+            mostraErro(erro)
         }
     })
 })
@@ -28,10 +27,11 @@ function mostra(resposta){
         $('.textimag').css('display', 'flex').css('textAlign', 'center');
         $('.divideo').css('display', 'flex');
         $('#vid').attr("src", resposta.url).css('justifyContent', 'center');
-        $('.ptext').css("display", "flex").css('textAlign', 'center');
+        $('.ptext').css('display', 'flex').css('textAlign', 'center');
         $('#text').text(resposta.explanation);
         $('#tvid').text(resposta.title);
-        $('.conteiner'). css("display","flex");
+        $('.conteiner').css('display','flex');
+        $('.errotxt').css('display', 'none');
     } else{
         $('.divimagem').css('display', 'flex');
         $('.textimag').css('display', 'flex').css('textAlign', 'center');
@@ -41,5 +41,6 @@ function mostra(resposta){
         $('#text').text(resposta.explanation);
         $('#timg').text(resposta.title);
         $('.conteiner'). css("display","flex");
+        $('.errotxt').css('display', 'none');
     }
 }
